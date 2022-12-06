@@ -1,6 +1,7 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description:  This template deploys a VPC in us-east1 with a public subnet. It has an internet gateway, with a default
   route on the public subnet, a Linux t2.micro Instance with Security Group with SSH from your IP <<<BE SURE TO ENTER YOUR IP HERE
+Be sure to use your own private keys as well.
     
     
 Resources:
